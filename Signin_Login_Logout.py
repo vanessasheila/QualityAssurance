@@ -29,19 +29,19 @@ class TestRegister(unittest.TestCase):
         time.sleep(1)
         driver.find_element(By.CSS_SELECTOR,"#navbarColor01 > form > ul > li:nth-child(1) > a").click() # klik tombol sign up
         time.sleep(2)
-        driver.find_element(By.ID,"FirstName").send_keys("Adnan") # isi first name
+        driver.find_element(By.ID,"FirstName").send_keys("Sheila") # isi first name
         time.sleep(1)
-        driver.find_element(By.ID,"Surname").send_keys("RR") # isi surename
+        driver.find_element(By.ID,"Surname").send_keys("SY") # isi surename
         time.sleep(1)
-        driver.find_element(By.ID,"E_post").send_keys("Testing") # isi e-post
+        driver.find_element(By.ID,"E_post").send_keys("mail@google.com") # isi e-post
         time.sleep(1)
-        driver.find_element(By.ID,"Mobile").send_keys("081254753") # isi mobile
+        driver.find_element(By.ID,"Mobile").send_keys("0812888888") # isi mobile
         time.sleep(1)
-        driver.find_element(By.ID,"Username").send_keys("Adnan") # isi username
+        driver.find_element(By.ID,"Username").send_keys("sheila567") # isi username
         time.sleep(1)
-        driver.find_element(By.ID,"Password").send_keys("Test123") # isi password
+        driver.find_element(By.ID,"Password").send_keys("test123") # isi password
         time.sleep(1)
-        driver.find_element(By.ID,"ConfirmPassword").send_keys("Test123") # isi confirm password
+        driver.find_element(By.ID,"ConfirmPassword").send_keys("test123") # isi confirm password
         time.sleep(1)
         driver.find_element(By.ID,"submit").click() # klik tombol submit
         time.sleep(3)
@@ -54,13 +54,13 @@ class TestRegister(unittest.TestCase):
         time.sleep(1)
         driver.find_element(By.CSS_SELECTOR,"#navbarColor01 > form > ul > li:nth-child(1) > a").click() # klik tombol sign up
         time.sleep(2)
-        driver.find_element(By.ID,"FirstName").send_keys("Adnan") # isi first name
+        driver.find_element(By.ID,"FirstName").send_keys("Sheila") # isi first name
         time.sleep(1)
-        driver.find_element(By.ID,"Surname").send_keys("RR") # isi surename
+        driver.find_element(By.ID,"Surname").send_keys("SY") # isi surename
         time.sleep(1)
-        driver.find_element(By.ID,"Username").send_keys("Adnan") # isi username
+        driver.find_element(By.ID,"Username").send_keys("sheila789") # isi username
         time.sleep(1)
-        driver.find_element(By.ID,"Password").send_keys("Test123") # isi password
+        driver.find_element(By.ID,"Password").send_keys("test123") # isi password
         time.sleep(1)
         driver.find_element(By.ID,"submit").click() # klik tombol submit
         time.sleep(3)
@@ -107,9 +107,9 @@ class TestRegister(unittest.TestCase):
         time.sleep(3)
         driver.find_element(By.CSS_SELECTOR,"#navbarColor01 > form > ul > li:nth-child(2) > a").click() # klik tombol login
         time.sleep(2)
-        driver.find_element(By.ID,"Username").send_keys("Ria") # isi email
+        driver.find_element(By.ID,"Username").send_keys("vanessa123") # isi username
         time.sleep(1)
-        driver.find_element(By.ID,"Password").send_keys("Test123") # isi password
+        driver.find_element(By.ID,"Password").send_keys("test123") # isi password
         time.sleep(1)
         driver.find_element(By.CSS_SELECTOR,"body > div.container.body-content > div:nth-child(4) > form > table > tbody > tr:nth-child(7) > td:nth-child(2) > input.btn.btn-primary").click() # klik tombol login
         time.sleep(3)
@@ -122,7 +122,7 @@ class TestRegister(unittest.TestCase):
         time.sleep(3)
         driver.find_element(By.CSS_SELECTOR,"#navbarColor01 > form > ul > li:nth-child(2) > a").click() # klik tombol login
         time.sleep(2)
-        driver.find_element(By.ID,"Username").send_keys("Ria") # isi email
+        driver.find_element(By.ID,"Username").send_keys("vanessa123") # isi email
         time.sleep(1)
         driver.find_element(By.ID,"Password").send_keys("123456") # isi password
         time.sleep(1)
@@ -143,9 +143,9 @@ class TestRegister(unittest.TestCase):
         time.sleep(3)
         driver.find_element(By.CSS_SELECTOR,"#navbarColor01 > form > ul > li:nth-child(2) > a").click() # klik tombol login
         time.sleep(2)
-        driver.find_element(By.ID,"Username").send_keys("RiaRia") # isi email
+        driver.find_element(By.ID,"Username").send_keys("vanessa") # isi email
         time.sleep(1)
-        driver.find_element(By.ID,"Password").send_keys("Test123") # isi password
+        driver.find_element(By.ID,"Password").send_keys("test123") # isi password
         time.sleep(1)
         driver.find_element(By.CSS_SELECTOR,"body > div.container.body-content > div:nth-child(4) > form > table > tbody > tr:nth-child(7) > td:nth-child(2) > input.btn.btn-primary").click() # klik tombol login
         time.sleep(3)
@@ -185,9 +185,9 @@ class TestRegister(unittest.TestCase):
         time.sleep(3)
         driver.find_element(By.CSS_SELECTOR,"#navbarColor01 > form > ul > li:nth-child(2) > a").click() # klik tombol login
         time.sleep(2)
-        driver.find_element(By.ID,"Username").send_keys("Ria") # isi email
+        driver.find_element(By.ID,"Username").send_keys("vanessa123") # isi email
         time.sleep(1)
-        driver.find_element(By.ID,"Password").send_keys("Test123") # isi password
+        driver.find_element(By.ID,"Password").send_keys("test123") # isi password
         time.sleep(1)
         driver.find_element(By.CSS_SELECTOR,"body > div.container.body-content > div:nth-child(4) > form > table > tbody > tr:nth-child(7) > td:nth-child(2) > input.btn.btn-primary").click() # klik tombol login
         time.sleep(2)
